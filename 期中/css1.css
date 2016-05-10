@@ -1,0 +1,396 @@
+body {
+    background-color: #222222;
+}
+
+
+/*页头格式*/
+
+.main {
+    width: 894px;
+    background-color: #fff;
+    /*margin-left=margin-right=auto时，该元素会在其父元素中居中*/
+    margin: 0 auto;
+    padding: 0 43px;
+    color: #808080;
+}
+
+.head {
+    border-bottom: 1px #938e8c solid;
+    height: 60px;
+    font: 12px 黑体;
+}
+
+.head p:nth-child(1) {
+    color: #fff;
+    /*display: table-cell;*/
+    background-color: #D55D5C;
+    width: 110px;
+    height: 13px;
+    /*vertical-align: bottom;*/
+    padding: 5px;
+    padding-top: 42px;
+    float: left;
+}
+
+.head p:nth-child(2) {
+    width: 110px;
+    height: 13px;
+    float: right;
+    padding-top: 42px;
+    color: red;
+    text-align: right;
+}
+
+
+/*焦点内容区域格式*/
+
+.focus {
+    /*width: 100%;*/
+    /*height: 500px;*/
+    margin-top: 35px;
+    font-family: 微软雅黑;
+}
+
+.focus-img {
+    width: 640px;
+    height: 300px;
+    background-image: url(img/focus.jpg);
+    float: left;
+}
+
+.focus-num {
+    float: right;
+    width: 200px;
+    height: 288px;
+    border-top: 2px #cc8091 solid;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.focus-num h2 {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: lighter;
+    color: #000;
+}
+
+.focus-num h2::first-letter {
+    font-size: 30px;
+}
+
+.focus-num p.desc {
+    font-size: 12px;
+    font-style: italic;
+    color: #676767;
+    margin-top: 5px;
+}
+
+.focus-num p.num {
+    font-size: 116px;
+    font-style: italic;
+    color: #75b86b;
+    margin-top: 20px;
+    letter-spacing: -8px;
+}
+
+.focus-num div {
+    width: 50px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+p.css {
+    font-size: 21px;
+    color: #cc8091;
+}
+
+p.last-desc {
+    font-size: 12px;
+}
+
+p.an-num {
+    font-size: 55px;
+    color: #cc8091;
+    float: left;
+}
+
+
+/*介绍区域样式*/
+
+.intro div {
+    float: left;
+    margin-top: 40px;
+    margin-right: 25px;
+    width: 200px;
+}
+
+.intro h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.intro p {
+    line-height: 1.5;
+}
+
+.intro div:nth-child(1) {
+    width: 225px;
+}
+
+.intro div:nth-child(2) {
+    width: 200px;
+}
+
+.intro div:nth-child(3) {
+    width: 140px;
+}
+
+.intro div:nth-child(1) h2 {
+    color: #76BA71;
+}
+
+.intro div:nth-child(2) h2 {
+    color: #D8A56A;
+}
+
+.intro div:nth-child(3) h2 {
+    color: #CA8192;
+}
+
+.intro div:nth-child(3) p {
+    line-height: 1.8;
+}
+
+
+/*特写区域样式*/
+
+.feature {
+    height: 600px;
+    margin-top: 40px;
+}
+
+.left {
+    width: 410px;
+    float: left;
+    font：黑体;
+}
+
+.right {
+    float: right;
+    width: 457px;
+}
+
+.left h2 {
+    color: #144B72;
+    overflow-wrap: break-word;
+}
+
+.left p {
+    line-height: 1.5;
+/*     text-indent: 2em; 取消首行缩进*/
+}
+/* 设置第一段不缩进，第二段第三段缩进 */
+#indent{
+    text-indent:2em;
+}
+
+.left h2:nth-child(1) {
+    font-size: 33px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+}
+
+.left h2:nth-child(1) span {
+    font-size: 72px;
+    font-style: italic;
+    color:#f5e327;
+    /*letter-spacing: -10px;*/
+}
+
+.left h2:nth-child(2) {
+    font-size: 33px;
+    line-height: 16px;
+    padding: 20px 0;
+    border-bottom: 4px solid #144B72;
+    margin-bottom: 20px;
+}
+.left p {
+    font-size: 12px;
+    font:宋体;
+    line-height: 16px;
+}
+.left p:nth-child(1) {
+    font-size: 12px;
+    font:宋体;
+    line-height: 16px;
+    padding-top: -10px;
+}
+.left span{
+    font-size: 70px;
+    color:#f5e327;
+    font:微软雅黑;
+    float: left;
+    padding:20px 30px 30px 0px;
+}
+
+.left img{
+    float: right;
+    padding: 10px 0px 10px 10px;
+}
+
+.con{
+    width: 458px;
+    height: 310px;
+    margin-top: -600px;
+    float: right;
+}
+.font{
+    background-image: url(img/dota.jpg);
+    width: 458px;
+    height: 275px;
+}
+.tec{
+    width: 458px;
+    height: 61px;
+    background: black;
+    position: absolute;
+    margin-top: 214px;
+    background-color: rgba(0,0,0,0.3);
+}
+.tec .tex-1{
+    width: 130px;
+    border-left: 3px #71B26E solid;
+    margin-left: 50px;
+    margin-top: 15px;
+    float: left;
+}
+.tec .tex-1 p{
+    font-size: 30px;
+    font-family:  微软雅黑; 
+    color:  #FFFFFD;
+    padding-left: 6px;
+}
+.tec .tex-2{
+    width: 275px;
+    float: right;
+    margin-top: 25px;
+}
+ .tec .tex-2 p{
+    font-size: 20px;
+    font-family:  微软雅黑; 
+    color: #71B26E;
+    font-style: italic;
+}
+.name2{
+    height: 282px;
+    width: 458px;
+    background-color: #eeede6;
+    padding-top: 30px;
+    margin-top: -300px;
+    float: right;
+}
+ul {
+    margin-left: 50px;
+    line-height: 2.5;
+}
+
+li {
+    list-style-image: url(img/triangle.png);
+    letter-spacing: 1px;
+}
+
+li span {
+    font-style: italic;
+    font-size: 12px;
+}
+div.decoration {
+    width: 255px;
+    height: 90px;
+    float:left;
+    background-color: #D55D5C;
+    padding: 30px 12px;
+    margin-top: 10px;
+    color: white;
+}
+
+.decoration div {
+    float: left;
+    font：黑体；
+}
+
+.num0 {
+    font-size: 100px;
+    width: 62px;
+    border-right: 3px white solid;
+}
+
+.number-title {
+    width: 180px;
+    padding: 2px 5px;
+    font:黑体;
+    line-height: 1.2;
+}
+ 
+.number-title h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.number-title p {
+    font-size: 14px;
+}
+.name2 .hello{
+    width: 100px;
+    height: 160px;
+    margin-top: 35px;
+}
+.name2 .hello{
+    width: 170px;
+    height: 150px;
+    float: right;
+    padding-right: 10px;
+}
+.name2 .hello{
+    width: 150px;
+    height: 20px;
+    float: right;
+    
+}
+.hello p {
+    font-size: 14px;
+    line-height: 1;
+    font-family: 黑体;
+}
+.hello span {
+    font-size: 72px;
+    color:#d45d5c;
+/*     padding: 0px 0px 0px 0px; */
+}
+.hello .let{
+    float: left;
+    margin:-18px 10px 0px -40px;
+    height: 30px;
+}
+.hello .down{
+    float: right;
+}
+.foot {
+    border-top: 1px #938e8c solid;
+    width: 892px;
+    font: 12px 黑体;
+    margin-top: 50px;
+    
+}
+
+.foot p {
+    color: #d45d5c;
+    width: 110px;
+    height: 13px;
+    float: right;
+    padding-top: 2px;
+    text-align: right;
+    margin-bottom: 2px;
+}
