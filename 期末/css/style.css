@@ -250,7 +250,7 @@ body {
 
 .section1 {
     /*background: url(../images/bg1.png) 0 50% repeat-x;*/
-    background: linear-gradient(#EEF4ED, #3CA353);
+    background: linear-gradient(#b9e8b9, #3d973d);
 }
 
 .logo1 {
@@ -292,7 +292,7 @@ body {
 }
 
 .section2 {
-    background: linear-gradient(#BBB2A5, #68523C);
+    background: linear-gradient(#bfb09d, #594b39);
 }
 
 .logo2 {
